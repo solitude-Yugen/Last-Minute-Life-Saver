@@ -166,17 +166,6 @@ gcloud run deploy last-minute-life-saver \
 
 <br>
 
-## 🏆 Hackathon Alignment (Vibe2Ship 2026)
-
-| Judging Criteria | Weight | How We Address It |
-|-----------------|--------|-------------------|
-| Problem Solving & Impact | 20% | Directly solves the stated problem — proactive agent, not passive reminders |
-| Agentic Depth | 20% | Full agentic loop: decompose → schedule → nudge → re-plan with reasoning |
-| Innovation & Creativity | 20% | Urgency-aware scheduling, autonomous re-planning with explanations, resilient fallback architecture |
-| Google Technologies | 15% | Gemini 2.0 Flash (structured JSON) + Google Cloud Run |
-| Product Experience & Design | 10% | Dark glassmorphism UI, micro-animations, single-page dashboard |
-| Technical Implementation | 10% | React Context, structured schemas, multi-model fallback chain |
-| Completeness & Usability | 5% | Working end-to-end loop, deployed and publicly accessible |
 
 <br>
 
