@@ -1,0 +1,18 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'build'
+      - '--build-arg'
+      - 'VITE_GEMINI_API_KEY=${_VITE_GEMINI_API_KEY}'
+      - '-t'
+      - '${_AR_REGION}-docker.pkg.dev/${PROJECT_ID}/${_AR_REPO}/${_SERVICE_NAME}'
+      - '.'
+
+images:
+  - '${_AR_REGION}-docker.pkg.dev/${PROJECT_ID}/${_AR_REPO}/${_SERVICE_NAME}'
+
+substitutions:
+  _VITE_GEMINI_API_KEY: ''
+  _AR_REGION: us-central1
+  _AR_REPO: cloud-run-source-deploy
+  _SERVICE_NAME: last-minute-life-saver
